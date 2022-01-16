@@ -1,4 +1,4 @@
-package dda.spring.webflux.myWebFlux;
+package dda.spring.webflux.mywebflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,17 +1,12 @@
-package dda.spring.webflux.myWebFlux.router;
+package dda.spring.webflux.mywebflux.router;
 
-import dda.spring.webflux.myWebFlux.domain.Message;
-import dda.spring.webflux.myWebFlux.handlers.GreetingHandler;
-import dda.spring.webflux.myWebFlux.handlers.IndexHandler;
-import dda.spring.webflux.myWebFlux.handlers.InfoHandler;
+import dda.spring.webflux.mywebflux.handlers.GreetingHandler;
+import dda.spring.webflux.mywebflux.handlers.IndexHandler;
+import dda.spring.webflux.mywebflux.handlers.InfoHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.server.*;
-import reactor.core.publisher.Flux;
-
-import java.util.Map;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;

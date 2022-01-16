@@ -1,4 +1,4 @@
-package dda.spring.webflux.myWebFlux.dto;
+package dda.spring.webflux.mywebflux.dto;
 
 public class Greeting {
 

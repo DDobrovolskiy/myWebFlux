@@ -1,16 +1,12 @@
-package dda.spring.webflux.myWebFlux.handlers;
+package dda.spring.webflux.mywebflux.handlers;
 
-import dda.spring.webflux.myWebFlux.domain.Message;
-import dda.spring.webflux.myWebFlux.dto.Greeting;
+import dda.spring.webflux.mywebflux.domain.Message;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
-import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.time.LocalDate;
 
 @Component
 public class InfoHandler {
